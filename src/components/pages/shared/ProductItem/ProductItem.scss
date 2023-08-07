@@ -1,0 +1,22 @@
+.product_item{
+  width: 40%;
+  .item_wrapper{
+    width: 300px;
+    background-color: #fff;
+    padding: 30px;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    img{
+      max-width: 200px;
+      object-fit: cover;
+      display: block;
+      object-position: center;
+      margin-inline: auto;
+    }
+  }
+  a{
+    text-decoration: none;
+    color: #646cffaa;
+  }
+}
